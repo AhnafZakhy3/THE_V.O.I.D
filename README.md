@@ -149,7 +149,7 @@ Lihat [CONTRIBUTING.md](#) untuk detail lengkap tentang *pull request*.
 
 ## 📄 Footer
 - **License**: [MIT License](LICENSE)
-- **Author**: [Your Name/Handle](https://github.com/your-username)
+- **Author**: [Your Name/Handle](https://github.com/AhnafZakhy3)
 - **Acknowledgements**: Syne, Cormorant Garamond, JetBrains Mono, Unsplash API.
 
 **Made with ❤️ by THE V.O.I.D. Maintainers**
