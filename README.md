@@ -18,7 +18,7 @@
 [![Stack](https://img.shields.io/badge/stack-PHP%20%7C%20MySQL%20%7C%20Tailwind-red)](#)
 
 <p align="center">
-  <img src="dashboard_preview.png" alt="The Archive Dashboard" width="800" style="border: 2px solid #FF2A00; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);"/>
+  <img src="login_preview.png" alt="The Archive Dashboard" width="800" style="border: 2px solid #FF2A00; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);"/>
 </p>
 
 ---
