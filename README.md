@@ -68,6 +68,17 @@ mysql -u root -p notes_app < sql/database.sql
 ### Manifest Your First Thought
 Cukup buka `localhost:8000`, daftar, dan injeksikan teks ke dalam *void*.
 
+### 🐳 Docker Support
+Jika Anda memiliki **Docker** dan **Docker Compose** terinstal, Anda dapat menjalankan seluruh *stack* (PHP + MySQL) dengan satu perintah:
+
+```bash
+# Jalankan aplikasi
+docker-compose up -d --build
+```
+
+Aplikasi akan tersedia di [http://localhost:8080](http://localhost:8080).
+Database akan otomatis terinisialisasi pada saat pertama kali dijalankan oleh `db.php`.
+
 **Output yang Diharapkan:**
 Kartu catatan akan muncul dengan animasi *staggered reveal* dan gambar dinamis yang ditarik dari Unsplash sesuai konteks ID.
 

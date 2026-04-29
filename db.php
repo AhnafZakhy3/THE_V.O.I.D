@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1';
-$dbname = 'notes_app';
-$username = 'root'; // Sesuaikan jika menggunakan username berbeda
-$password = '';     // Sesuaikan jika menggunakan password berbeda
+$host = getenv('DB_HOST') ?: '127.0.0.1';
+$dbname = getenv('DB_NAME') ?: 'notes_app';
+$username = getenv('DB_USER') ?: 'root';
+$password = getenv('DB_PASS') ?: '';
 
 try {
     // 1. Koneksi awal ke server MySQL untuk memastikan database ada

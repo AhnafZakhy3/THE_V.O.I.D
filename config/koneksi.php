@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "notes_app";
+$host = getenv('DB_HOST') ?: "localhost";
+$username = getenv('DB_USER') ?: "root";
+$password = getenv('DB_PASS') ?: "";
+$database = getenv('DB_NAME') ?: "notes_app";
 
 $conn = mysqli_connect($host, $username, $password, $database);
 if (!$conn) {
