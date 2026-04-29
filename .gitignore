@@ -3,6 +3,5 @@ node_modules/
 tailwindcss.exe
 output.css
 dashboard_preview.png
-login_preview.png
 .env
 *.log
